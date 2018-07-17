@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	tracehttp "github.com/DataDog/dd-trace-go/contrib/net/http"
+	tracehttp "gopkg.in/DataDog/dd-trace-go.v1/contrib/net/http"
 )
 
 const (
